@@ -1,74 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gym Management System</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 5px;
+        }
+        h1 {
+            text-align: center;
+            color: #007bff;
+        }
+        .section {
+            margin-bottom: 30px;
+        }
+        .section-header {
+            background-color: #007bff;
+            color: #fff;
+            padding: 10px;
+            border-radius: 5px;
+        }
+        .section-content {
+            padding: 20px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            padding: 10px;
+            border-bottom: 1px solid #ddd;
+        }
+        th {
+            background-color: #007bff;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
 
+<div class="container">
+    <h1>Gym Management System</h1>
 
-Gym Management Mini Project
+    <div class="section">
+        <div class="section-header">Member Management</div>
+        <div class="section-content">
+            <!-- Member Management Content Goes Here -->
+        </div>
+    </div>
 
-Objective:
-The objective of this project is to create a gym management system that allows gym owners to manage their members, trainers, classes, and schedules efficiently.
+    <div class="section">
+        <div class="section-header">Trainer Management</div>
+        <div class="section-content">
+            <!-- Trainer Management Content Goes Here -->
+        </div>
+    </div>
 
-Technologies Used:
+    <div class="section">
+        <div class="section-header">Class Management</div>
+        <div class="section-content">
+            <!-- Class Management Content Goes Here -->
+        </div>
+    </div>
 
-HTML
-CSS
-PHP
-MySQL
-XAMPP server for hosting and database management
-Features:
+    <div class="section">
+        <div class="section-header">Schedule Management</div>
+        <div class="section-content">
+            <!-- Schedule Management Content Goes Here -->
+        </div>
+    </div>
+</div>
 
-Member Management:
-
-Add, edit, and delete member profiles.
-Track member attendance and subscription status.
-View member details including contact information and membership plan.
-Trainer Management:
-
-Add, edit, and delete trainer profiles.
-Assign trainers to specific classes or sessions.
-View trainer schedules and availability.
-Class Management:
-
-Create, modify, and delete class schedules.
-Assign trainers to classes.
-Set maximum capacity for each class.
-Schedule Management:
-
-Display weekly schedules for classes and trainers.
-Allow members to sign up for classes.
-Send reminders for upcoming classes.
-Database Schema:
-
-Members Table:
-
-ID (Primary Key)
-Name
-Email
-Phone Number
-Membership Start Date
-Membership End Date
-Subscription Plan
-Trainers Table:
-
-ID (Primary Key)
-Name
-Specialization
-Contact Information
-Classes Table:
-
-ID (Primary Key)
-Title
-Description
-Time
-Maximum Capacity
-Schedule Table:
-
-ID (Primary Key)
-Class ID (Foreign Key)
-Trainer ID (Foreign Key)
-Date
-Time
-Member Limit
-Frontend:
-The frontend will be developed using HTML for structure, CSS for styling, and PHP for dynamic content generation. It will include user-friendly interfaces for managing members, trainers, classes, and schedules. The design will focus on simplicity and ease of use.
-
-Database Connectivity:
-MySQL will be used to create and manage the database. XAMPP server will host the project locally, providing a platform for PHP scripts to connect with the MySQL database.
-
+</body>
+</html>
