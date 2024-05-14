@@ -1,0 +1,75 @@
+<?php
+    // Include the common.php file that establishes database connection and starts session
+    include "common.php"; 
+?>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GYM Management System</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-image: url('gym_background.png'); /* Replace 'gym_background.png' with the path to your background image */
+            background-size: cover; /* Cover the entire background */
+            background-repeat: no-repeat; /* Prevent background image from repeating */
+            background-attachment: fixed; /* Fixed background */
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #333;
+            padding: 10px 0;
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+
+        nav ul li {
+            display: inline;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            padding: 10px 20px;
+            transition: background-color 0.3s ease;
+        }
+
+        nav ul li a:hover {
+            background-color: #555;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>GYM Management System</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="add_member.php">Add Member</a></li>
+            <li><a href="add_trainer.php">Add Trainer</a></li>
+            <li><a href="add_employee.php">Add Employee</a></li>
+            <li><a href="add_membership_plan.php">Add Membership Plan</a></li>
+            <li><a href="add_equipment.php">Add Equipment</a></li>
+            <li><a href="add_workout_session.php">Add Workout Session</a></li>
+            <li><a href="record_attendance.php">Record Attendance</a></li>
+            <li><a href="add_membership_payment.php">Add Membership Payment</a></li>
+        </ul>
+    </nav>
+</body>
+</html>
